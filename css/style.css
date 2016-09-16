@@ -19,13 +19,17 @@ img {
    padding: 15px;
 }
 
+body {
+   background: #999;
+   font-style: 'Helvetica Neue', 'Helvetica', 'sans-serif', 'serif';
+}
+
 header {
    font-size: 0;
    display: inline-block;
    width: 100%;
    margin-bottom: 10px;
-   background-color: #2C2C2C;
-
+   background-color: #343434;
 }
 
 .logo {
@@ -61,13 +65,137 @@ header {
 }
 
 .body{
-   width: 700px;
-   border: 1px solid grey;
+   width: 600px;
+   display: inline-block;
+   font-size: 0;
+   padding: 5px;
 }
 
-.sidebar {
-   width: 180px;
-   border: 1px solid grey;
-   margin-left:
+.body > * {
+   font-size: medium;
+   display: inline-block;
+   width:100%;
+   padding: 10px;
+}
 
+.border-bottom{
+   border-bottom: 2px solid #F3F3F3;
+}
+
+.body h1 {
+   font-size: 30px;
+   border-bottom: none;
+   margin-bottom: 10px;
+}
+
+
+a {
+   text-decoration: none;
+}
+
+
+
+
+.new {
+   display: inline-block;
+   width:40%;
+   padding: 5px;
+   margin-top: 0;
+}
+
+.new-campus{
+   display: inline-block;
+   width:54%;
+   vertical-align: top;
+   margin-left: 10px;
+   margin-right: 1px;
+}
+
+.new-campus img {
+   width: 100%;
+   display: inline-block;
+   vertical-align: top;
+   margin-right: 10px;
+}
+
+.info-eugene p {
+   font-weight: bold;
+   font-size: 11px;
+   line-height: 2px;
+}
+
+
+.sidebar {
+   width: 280px;
+   padding: 5px;
+}
+
+.sidebar h2 {
+   font-size: 23px;
+}
+
+.art-speaks {
+   display: inline-block;
+   width:100%;
+   font-size: 0;
+   border-bottom: 1px dotted #F0F0F0;
+}
+
+.art-speaks > * {
+   display: inline-block;
+   font-size: medium;
+   font-size: 10px;
+   line-height: 10px;
+   vertical-align: top;
+   padding: 5px;
+}
+
+.art-speaks img {
+   display: inline-block;
+   width: 30%;
+   margin-top: 16px;
+}
+
+.art-speakstext {
+   display: inline-block;
+   width: 50%;
+   padding: 5px;
+   margin-left: 10px;
+   margin-right:   2px,
+}
+
+.viewall {
+   display: inline-block;
+   color:#7DABD1;
+   text-align: right;
+   border: solid 1px grey;
+}
+
+
+.footer {
+   display: inline-block;
+   font-size: 0;
+   vertical-align: top;
+   width: 100%;
+}
+
+.footerbox {
+   border-top: 1px dotted #F0F0F0;
+   font-size: medium;
+   display: inline-block;
+   width: 25%;
+   vertical-align: top;
+   font-size: 7px;
+   margin-left: auto;
+   margin-right: auto;
+   font-style: bold;
+   padding-top: 10px;
+}
+
+.arrow {
+   color: #CE6553;
+}
+
+.litegrey {
+   color: #86858A;
 }
