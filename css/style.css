@@ -167,8 +167,9 @@ a {
 .viewall {
    display: inline-block;
    color:#7DABD1;
-   text-align: right;
-   border: solid 1px grey;
+   margin-left:180px;
+   margin-right: 2px;
+
 }
 
 
